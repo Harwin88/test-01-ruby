@@ -10,6 +10,19 @@ class FindRepeatedWordBook
             lineas_array[count] = lines.split(" ")
             count=count+1
         end
+        array_Unifi=object.UnifyArray(lineas_array)
+    end
+
+    def UnifyArray(array_lines)
+       array_totals = []
+       count =0  
+       for i in 0..array_lines.length()-1 do
+        for j in 0..array_lines[i].length()-1 do
+            array_totals[count]=array_lines[i][j]
+            count = count + 1;
+        end
+      end
+      return array_totals
     end
 
     def replaceCharacters(line)
