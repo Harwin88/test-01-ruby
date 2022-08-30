@@ -11,6 +11,8 @@ class FindRepeatedWordBook
             count=count+1
         end
         array_Unifi=object.UnifyArray(lineas_array)
+        object.GetWordMoreRepetition(array_Unifi)
+
     end
 
     def UnifyArray(array_lines)
@@ -23,6 +25,22 @@ class FindRepeatedWordBook
         end
       end
       return array_totals
+    end
+
+    def GetWordMoreRepetition(array_totals)
+        counts_array = array_totals.group_by{|i| i}.map{|k,v| [k, v.count] }
+
+        array_respt=[]
+        mayor = 0
+        
+        for f in 0..counts_array.length()-1 do 
+          if counts_array[f][1] > mayor
+            mayor= counts_array[f][1]
+            array_respt= counts_array[f]
+          end 
+        end
+        
+        puts  array_respt        
     end
 
     def replaceCharacters(line)
