@@ -1,0 +1,18 @@
+Si eres de los que usa extensiones que bloquean anuncios, tenemos malas noticias para ti. Google Chrome no permitirá extensiones y ya no podrás usarlas más a partir de enero 2023.
+
+Estamos conscientes de lo molestos que son los anuncios que aparecen de imprevisto en casi todas las páginas web. Y esta nueva medida del navegador web seguro va a afectarte un poco. Lo cierto es que desde el 2023 ya no será posible instalar este tipo de extensiones. Esto confirma que Google mantiene sus intenciones de estropear los desarrollos de este tipo de extensiones.
+
+La compañía ejerce un control estricto sobre el navegador a través del Manifest. Este es un archivo de texto que contiene algunas especificaciones de las extensiones permitidas. En este se definen los recursos del sistema disponibles, los permisos que otorga a las extensiones. Se explicó en la web para desarrolladores de la empresa. También se otorgan las interfaces de programación de aplicaciones (APIs, por sus siglas en inglés) que son las funcionalidades a las que tienen acceso.
+
+
+Te puede interesar: Alerta de Malware para los usuarios de Google Chrome
+Por consiguiente, Google publicó recientemente una actualización en su base de código abierto de su navegador, Chromium. Aquí se conocieron algunas medidas aplicadas a una API específica, WebRequest. Estos cambios lo que van a provocar es que la mayoría de las funciones de los bloqueadores de anuncios serán eliminadas. Lo que explicó la empresa es que con esta medida mejorará la velocidad del navegador porque no dependerá de extensiones que filtren peticiones de red. De igual forma, permitirá proteger la privacidad de los usuarios del navegador.
+
+La API WebRequest de Chrome permite a los desarrolladores la integración de estas extensiones en el navegador y expandir sus funciones de bloqueo. No obstante, esta misma característica facilita a los ‘hackers’ secuestrar las credenciales de los usuarios e incluso modificar y añadir publicidad adicional en las páginas web. Y por estas razones es que Google Chrome no permitirá extensiones que bloqueen los anuncios en las webs.
+
+Imagen: Firmbee.com en Unsplash 
+
+BLOEQUEO DE ANUNCIOS CHROME NO PERMITIRÁ EXTENSIONES EXTENSIONES CHROME
+David Jojoa
+DAVID JOJOA
+Me hice comunicador porque con las letras descubrí mundos inexplorados. Para mí, la tecnología es un mundo por descubrir y cuando ya casi lo descubro surge algo más fascinante. Estudié comunicación y maestría en gerencia de la comunicación en Venezuela, porque tengo la fortuna de ser el venezolano en Colombia y el colombiano en Venezuela.
